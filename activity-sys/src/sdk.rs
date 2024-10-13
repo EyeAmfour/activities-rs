@@ -1,7 +1,7 @@
 use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsValue;
 
-#[wasm_bindgen(module = "@discord/embedded-app-sdk")]
+#[wasm_bindgen(module = "https://cdn.jsdelivr.net/npm/@discord/embedded-app-sdk@1.5.0/+esm")]
 extern "C" {
     #[wasm_bindgen(extends=js_sys::Object)]
     pub type DiscordSDK;
